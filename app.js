@@ -18,7 +18,7 @@ function clickHandler(){
     .then(response=>response.json())
     .then(jsonData=>{
         var op=jsonData.contents.translated;
-        console.log(op);
+        
         outputEl.innerHTML=op;
     }).catch(errorHandler)
 
