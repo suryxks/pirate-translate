@@ -5,7 +5,7 @@ var url="https://api.funtranslations.com/translate/pirate.json";
 console.log(inputTextArea,outputEl,translateBtn)
 function errorHandler(error){
     console.log(error);
-    alert(error);
+    alert("You have reached the maximum limit try after some time");
 }
 function genetrateURL(input){
    return url+"?"+"text="+input;
